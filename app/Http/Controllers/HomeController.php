@@ -43,7 +43,7 @@ class HomeController extends Controller
     public function sub($num1, $num2)
     {
         $sub = $num1 - $num2;
-        logger()->debug('Sub Feita ', compact('num1', 'num2', 'sub'));
+        logger()->debug('Sub Feita', compact('num1', 'num2', 'sub'));
 
         return $sub;
     }
